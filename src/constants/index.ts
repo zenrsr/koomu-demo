@@ -11,7 +11,7 @@ import {
 } from "./placeholder"
 import { GROUP_LIST, GroupListProps } from "./slider"
 
-type GroupleConstantsProps = {
+type KoomuConstantsProps = {
   landingPageMenu: MenuProps[]
   signUpForm: AuthFormProps[]
   signInForm: AuthFormProps[]
@@ -20,7 +20,7 @@ type GroupleConstantsProps = {
   groupPageMenu: GroupMenuProps[]
 }
 
-export const KOOMU_CONSTANTS: GroupleConstantsProps = {
+export const KOOMU_CONSTANTS: KoomuConstantsProps = {
   landingPageMenu: LANDING_PAGE_MENU,
   signUpForm: SIGN_UP_FORM,
   signInForm: SIGN_IN_FORM,
